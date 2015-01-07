@@ -8,7 +8,7 @@
     "ebooks"
   ],
   "scripts": {
-    "postdeploy": "bundle exec ebooks start"
+    "postdeploy": "bundle install && bundle exec ebooks start"
   },
   "addons": [
     "papertrail:choklad"
